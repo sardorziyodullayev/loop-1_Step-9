@@ -1,0 +1,247 @@
+/* FONTS */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-700.woff") format("woff");
+}
+
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "Arail", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  background-color: #f7cd75;
+}
+.container {
+  width: 880px;
+  margin: 52px auto;
+  padding-right: 45px;
+  padding-left: 47px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.box-cart {
+  display: flex;
+}
+.box-header {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  background-color: #f2f2f2;
+}
+.box-header h2 {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+}
+.header-button {
+  position: absolute;
+  top: 38px;
+  left: 228px;
+  border: none;
+  background-color: #fff;
+}
+.box-list {
+  list-style: none;
+}
+.box-item-1 {
+  position: absolute;
+  top: 105px;
+  left: 40px;
+  width: 220px;
+  height: 110px;
+  background-color: #fff;
+  list-style: none;
+}
+
+.box-item-2 {
+  position: absolute;
+  top: 247px;
+  left: 40px;
+  width: 222px;
+  height: 115px;
+  background-color: #fff;
+  border: 2px solid rgb(116, 119, 183);
+  border-radius: 5px;
+  list-style: none;
+}
+.box-item-3 {
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  width: 220px;
+  height: 60px;
+  background-color: #fff;
+  list-style: none;
+}
+.item-2-text {
+  margin-left: 10px;
+  margin-top: 2px;
+  line-height: 0.6;
+  font-weight: 550;
+  color: #888;
+}
+.text-size {
+  font-size: 16px;
+}
+.box-balance {
+  position: absolute;
+  left: 538px;
+  width: 500px;
+  height: 450px;
+  background-color: #fff;
+}
+.balance-title {
+  position: absolute;
+  display: flex;
+  top: 40px;
+  left: 40px;
+  align-items: center;
+}
+.balance-text {
+  position: absolute;
+  left: 340px;
+  font-size: 26px;
+}
+.balance-line {
+  position: absolute;
+  left: 40px;
+  width: 400px;
+  height: 1px;
+  background-color: rgb(181, 176, 176);
+  top: 100px;
+}
+.balance-item {
+  position: relative;
+}
+
+.balance-list {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  top: 130px;
+  left: 71px;
+  line-height: 0.4;
+}
+.balance-list img {
+  position: absolute;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+}
+.list-title-text {
+  position: absolute;
+  left: 330px;
+  font-size: 18px;
+}
+.balance-list-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  top: 210px;
+  left: 68px;
+  line-height: 0.4;
+}
+.list-title-text-2 {
+  position: absolute;
+  left: 335px;
+  font-size: 18px;
+}
+.balance-list-2 img {
+  position: absolute;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+}
+.balance-list-3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  top: 290px;
+  left: 68px;
+  line-height: 0.4;
+}
+.list-title-text-3 {
+  position: absolute;
+  left: 335px;
+  font-size: 18px;
+}
+.balance-list-3 img {
+  position: absolute;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+}
+.balance-list-4 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  top: 370px;
+  left: 68px;
+  line-height: 0.4;
+}
+.list-title-text-4 {
+  position: absolute;
+  left: 335px;
+  font-size: 18px;
+}
+.balance-list-4 img {
+  position: absolute;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+}
